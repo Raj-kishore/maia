@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
-# Git link : https://github.com/Raj-kishore/maix
 def scrape(username: str, password: str) -> None:
   current_dir = os.path.dirname(os.path.abspath(__file__))
   driver = sh.get_driver("chrome")
